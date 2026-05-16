@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "title": "Roommate Need",
+        "description": "Roommate Need is a roommate finder platform where users can search for rooms, post listings, and connect with suitable roommates. It helps people find shared accommodation quickly based on their needs, location, and budget.",
+        "image": "https://i.ibb.co.com/tNs4RTr/roommate-need.png",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Tailwind CSS",
+            "React",
+            "Node JS",
+            "Express JS",
+            "MongoDB",
+            "Firebase"
+        ],
+        "demoLink": "https://roommate-need.netlify.app/",
+        "codeLink": "https://github.com/Sheikh-Rasel2001/roommate-finder"
+    },
+    {
+        "id": 3,
+        "title": "Dragon News",
+        "description": "Travel Guru is a travel management platform where users can explore destinations, book tours, and plan trips easily with detailed travel information.",
+        "image": "https://i.ibb.co.com/20QZZy5N/travel-guru.png",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Tailwind CSS",
+            "React",
+            "Firebase"
+        ],
+        "demoLink": "https://travel-guru-191132.netlify.app/",
+        "codeLink": "https://github.com/Sheikh-Rasel2001/travel-guru"
+    },
+    {
+        "id": 3,
+        "title": "Dragon News",
+        "description": "Dragon News is a modern news portal where users can read breaking news, explore categories, and stay updated with real-time articles from around the world.",
+        "image": "https://i.ibb.co.com/ZZ6H7KB/dragon-news.png",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Tailwind CSS",
+            "React",
+            "Firebase"
+        ],
+        "demoLink": "https://dragon-current-news.netlify.app/category/0",
+        "codeLink": "https://github.com/Sheikh-Rasel2001/dragon-news"
+    },
+    {
+        "id": 4,
+        "title": "Hero App",
+        "description": "Hero App is a multi-service platform where users can access daily essential services, manage tasks, and complete bookings through a simple and modern interface.",
+        "image": "https://i.ibb.co.com/LzDrtT9x/hero-app.png",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Tailwind CSS",
+            "React",
+            "Firebase"
+        ],
+        "demoLink": "https://hero-app-io-191132.netlify.app/",
+        "codeLink": "https://github.com/Sheikh-Rasel2001/hero-app-io"
+    },
+    {
+        "id": 5,
+        "title": "Swift Cart",
+        "description": "Travel Guru is a travel booking platform that helps users explore destinations, book trips, and plan journeys with ease. Users can discover travel packages, view destination details, and organize their travel experience in one place.",
+        "image": "https://i.ibb.co.com/JFKNysjv/swift-cart.png",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "Tailwind CSS"
+        ],
+        "demoLink": "https://swiftcart-shopping-online.netlify.app/",
+        "codeLink": "https://github.com/Sheikh-Rasel2001/swiftCart"
+    }
+]

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <title>Sheikh_Rasel</title>
+</head>
+
+<body>
+    <section class="main-content">
+        <!-- header section -->
+        <header class="max-w-7xl mx-auto relative">
+            <nav class="w-full fixed top-8 left-0 z-50 flex justify-between items-center px-6 lg:px-8">
+                <!-- logo -->
+                <div>
+                    <h1 class="text-4xl text-gray-400 font-bold">Sheikh<span class="text-purple-700">Rasel</span></h1>
+                </div>
+                <!-- desktop menu -->
+                <div class="hidden lg:flex items-center justify-between gap-10">
+                    <ul class="flex items-center gap-6 text-white">
+                        <li><a href="#" class="text-lg hover:text-purple-600">Home</a></li>
+                        <li><a href="#about" class="text-lg hover:text-purple-600 transition">About</a></li>
+                        <li><a href="#projects" class="text-lg hover:text-purple-600">Projects</a></li>
+                        <li><a href="#skills" class="text-lg hover:text-purple-600">Skills</a></li>
+                    </ul>
+                    <div>
+                        <a class="text-sm text-white font-semibold rounded-xl px-6 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20"
+                            href="#contact">Get
+                            In Touch</a>
+                    </div>
+                </div>
+                <!-- mobile button -->
+                <div id="menu-btn" class="lg:hidden">
+                    <button class="text-white"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </nav>
+            <!-- mobile menu -->
+            <div id="menu-item"
+                class="lg:hidden w-full bg-white/10 backdrop-blur-sm fixed top-20 left-0 transform transition-all duration-300 -translate-x-full z-50 py-6">
+                <ul class="text-white flex flex-col justify-center items-center gap-4">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li>
+                        <a class="text-sm text-white font-semibold rounded-xl px-6 py-3 bg-white/10 backdrop-blur-sm hover:bg-white/20"
+                            href="#contact">Get
+                            In Touch</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="pt-28 max-w-7xl mx-auto">
+            <div class="flex flex-col justify-center items-center">
+                <div class="text-center">
+                    <div
+                        class="w-48 h-48 rounded-full border-2 border-gray-500 overflow-hidden mx-auto mb-3 bg-white/10 backdrop-blur-sm">
+                        <img src="./assets/rasel_port-3-removebg-preview.png" alt="Sheikh_Rasel"
+                            class="w-full h-full object-contain">
+                    </div>
+                    <h2 class="text-white text-4xl font-semibold mb-3">Hello I'm </h2>
+                    <h1 class="text-5xl lg:text-7xl text-white/90 mb-2">Sheikh <span
+                            class="text-purple-600">Rasel</span>
+                    </h1>
+                    <h3 class="text-2xl lg:text-4xl mb-3 font-semibold text-white/80">
+                        I am a
+                        <span id="typed-text" class="text-purple-500"></span>
+                        <span class="animate-pulse text-purple-600">|</span>
+                    </h3>
+
+                </div>
+
+            </div>
+        </section>
+
+    </section>
+    <!-- about section -->
+    <section id="about" class="bg-[#212529] w-full transition">
+        <div class="max-w-7xl mx-auto lg:p-20 p-6">
+            <div class="max-w-4xl mx-auto relative">
+                <h1 class="text-6xl md:text-8xl lg:text-9xl text-gray-800 header text-center whitespace-nowrap">About Me
+                </h1>
+                <h4
+                    class="text-white absolute top-4 left-14 md:top-8 md:left-72 lg:top-12 lg:left-72 text-2xl md:text-4xl lg:text-5xl whitespace-nowrap">
+                    Know Me More</h4>
+            </div>
+            <div class="mt-10 grid grid-cols-1 lg:grid-cols-12 ">
+                <div class="lg:col-span-9 p-4 lg:p-8">
+                    <h1 class="text-3xl text-gray-300">I am <span
+                            class="text-4xl font-semibold text-emerald-600 whitespace-nowrap">Sheikh
+                            Rasel</span>, a Web Developer</h1>
+                    <p class="text-white mt-6 text-lg">I am a passionate Frontend Developer focused on creating clean,
+                        responsive, and user-friendly web applications.
+                        I enjoy transforming ideas into real-world digital experiences
+                        using modern web technologies.</p>
+                    <p class="mt-4 text-lg text-gray-100">Currently, I am learning advanced React, backend development,
+                        typescript, Nextjs and building full-stack projects to improve my skills every day.</p>
+                </div>
+                <!-- my cv -->
+                <div class="col-span-3 py-8 px-4">
+                    <p class="py-3 text-xl text-gray-100 border-b border-b-gray-400"><span
+                            class="font-semibold">Name:</span> Sheikh Rasel</p>
+
+                    <p class="py-3 text-xl border-b border-b-gray-400"><span
+                            class="font-semibold text-gray-100 ">Email:</span> <a href="#"
+                            class="text-emerald-500 hover:underline">admin@gmail.com</a></p>
+
+                    <p class="border-b border-b-gray-400 py-3 text-gray-100 text-xl"><span class="font-semibold">Age:
+                        </span> 26</p>
+
+                    <p class="border-b border-b-gray-400 py-3 text-gray-100 text-xl"><span class="font-semibold">From:
+                        </span> Dhaka, Bangladesh</p>
+                    <button class="px-6 py-3 bg-emerald-600 rounded-xl font-semibold text-xl mt-4"><a href="#">Download
+                            CV</a></button>
+                </div>
+
+            </div>
+
+            <!-- count up section -->
+            <div class="grid grid-cols-2 lg:grid-cols-4 mt-6 text-center">
+                <div
+                    class="p-6 border-r border-r-gray-600 border-b border-b-gray-600 lg:border-r lg:border-r-gray-600 lg:border-b-0">
+                    <h1 class="text-4xl text-white font-bold counter" data-target="30">0</h1>
+                    <p class="mt-3 text-gray-100 font-semibold">Project Complete</p>
+                </div>
+
+                <div class="p-6 border-b border-b-gray-600 lg:border-b-0 lg:border-r border-r-gray-600">
+                    <h1 class="text-4xl text-white font-bold counter" data-target="20">0</h1>
+                    <p class="mt-3 text-gray-100 font-semibold">Happy Client</p>
+                </div>
+
+                <div class="p-6 border-r border-r-gray-600">
+                    <h1 class="text-4xl text-white font-bold counter" data-target="150">0</h1>
+                    <p class="mt-3 text-gray-100 font-semibold">Github Commit</p>
+                </div>
+
+                <div class="p-6">
+                    <h1 class="text-4xl text-white font-bold counter" data-target="50">0</h1>
+                    <p class="mt-3 text-gray-100 font-semibold">Cup of Coffee</p>
+                </div>
+            </div>
+            <!-- count up end -->
+        </div>
+
+    </section>
+    <!-- project section -->
+    <section id="projects" class="w-full bg-[#212529] py-16">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="max-w-4xl mx-auto relative mb-16">
+                <h1 class="text-6xl md:text-8xl lg:text-9xl text-gray-800 header text-center whitespace-nowrap">Projects
+                </h1>
+                <h4
+                    class="text-white absolute top-4 left-20 md:top-8 md:left-80 lg:top-12 lg:left-80 text-2xl md:text-4xl lg:text-5xl whitespace-nowrap">
+                    My Work</h4>
+            </div>
+            <!-- card container -->
+            <div id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- skill section -->
+    <section id="skills" class="w-full bg-gray-700 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <h1 class="text-4xl font-bold text-white text-center mb-12">My Skills</h1>
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- left side frontend -->
+                <div class="space-y-6">
+                    <!-- html -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-orange-600">HTML</span>
+                            <span class="text-xl font-semibold text-white">90%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-orange-600 h-3 rounded-full skill-bar" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <!-- css -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-blue-600">CSS</span>
+                            <span class="text-xl font-semibold text-white">80%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-blue-600 h-3 rounded-full skill-bar" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <!-- javascript -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-yellow-600">Javascript</span>
+                            <span class="text-xl font-semibold text-white">70%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-yellow-600 h-3 rounded-full skill-bar" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <!-- Tailwind css -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-sky-600">Tailwind CSS</span>
+                            <span class="text-xl font-semibold text-white">85%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-2">
+                            <div class="bg-sky-600 h-3 rounded-full skill-bar" data-width="85%"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- right side backend -->
+                <div class="space-y-6">
+                    <!-- React -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-blue-600">React JS</span>
+                            <span class="text-xl font-semibold text-white">70%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-blue-600 h-3 rounded-full skill-bar" data-width="70%"></div>
+                        </div>
+                    </div>
+                    <!-- node js -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-green-700">Node JS</span>
+                            <span class="text-xl font-semibold text-white">60%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-green-600 h-3 rounded-full skill-bar" data-width="60%"></div>
+                        </div>
+                    </div>
+                    <!-- express -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-gray-500">Express JS</span>
+                            <span class="text-xl font-semibold text-white">55%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-gray-600 h-3 rounded-full skill-bar" data-width="55%"></div>
+                        </div>
+                    </div>
+                    <!-- mongodb -->
+                    <div>
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-xl font-semibold text-green-600">MongoDB</span>
+                            <span class="text-xl font-semibold text-white">50%</span>
+                        </div>
+                        <div class="w-full bg-black rounded-full h-3">
+                            <div class="bg-green-600 h-3 rounded-full skill-bar" data-width="50%"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="w-full bg-[#343a40] py-16">
+        <div class="max-w-7xl mx-auto px-8">
+            <div class="max-w-4xl mx-auto relative mb-16">
+                <h1 class="text-6xl md:text-8xl lg:text-9xl text-gray-800 header text-center whitespace-nowrap">Contact
+                </h1>
+                <h4
+                    class="text-white absolute top-4 left-14 md:top-8 md:left-80 lg:top-12 lg:left-80 text-2xl md:text-4xl lg:text-5xl whitespace-nowrap">
+                    Get In Touch</h4>
+            </div>
+            <!-- contact container -->
+            <div class="flex flex-col-reverse lg:flex-row gap-8">
+                <!-- contact details -->
+                <div class="w-full lg:w-4/12">
+                    <h4 class="text-2xl text-white font-bold mb-6">Address</h4>
+                    <!-- address -->
+                    <p class="text-gray-100 font-semibold mb-4 flex items-center gap-2"><i
+                            class="fa-solid fa-location-dot"></i> Gazipur Sadar, Gazipur, Dhaka, Bangladesh</p>
+                    <!-- phone -->
+                    <p class="text-gray-100 text-xl hover:text-purple-500 transition-all transform duration-300"><i
+                            class="fa-solid fa-phone"></i>
+                        <span class="text-gray-200 font-bold">Phone: </span>01717-359725
+                    </p>
+                    <!-- email -->
+                    <p class="text-gray-100 text-xl hover:text-purple-500 transition-all transform duration-300"><i
+                            class="fa-regular fa-envelope"></i> <span class="text-gray-200 font-bold"> Email:
+                        </span>mhrasel191132@gmail.com</p>
+                    <div class="mt-6">
+                        <h3
+                            class="text-2xl font-bold text-purple-400 transition-all transform duration-300 hover:text-purple-600 mb-6">
+                            Follow Me On</h3>
+                        <ul class="flex items-center gap-4">
+                            <li>
+                                <a href="#">
+                                    <i
+                                        class="fa-brands fa-facebook text-xl text-gray-300 transition-all transform duration-200 hover:text-blue-600"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i
+                                        class="fa-brands fa-whatsapp text-xl text-gray-300 transition-all transform duration-200 hover:text-green-600"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i
+                                        class="fa-regular fa-envelope text-xl text-gray-300 transition-all transform duration-200 hover:text-red-600"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i
+                                        class="fa-brands fa-linkedin text-xl text-gray-300 transition-all transform duration-200 hover:text-sky-600"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- contact form -->
+                <div class="w-full lg:w-8/12">
+                    <h3 class="text-3xl font-bold mb-4 text-white">Send Your Need</h3>
+                    <form id="contact-form">
+                        <div class="flex flex-col lg:flex-row items-center gap-4 mb-6">
+                            <input type="text" name="user_name" id="form_name" required placeholder="Your Name"
+                                class="w-full px-6 py-3 bg-[#232a31] rounded-lg text-xl text-white outline-none focus:ring-2 focus:ring-blue-500 border-none">
+
+                            <input type="email" name="user_email" id="form_email" required placeholder="Your Email"
+                                class="w-full px-6 py-3 bg-[#232a31] rounded-lg text-xl text-white border-none outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <textarea name="message" id="user_message" required rows="5"
+                            placeholder="Tell me more about your needs....."
+                            class="w-full outline-none focus:ring-2 focus:ring-blue-500 rounded-lg text-xl text-white border-none bg-[#232a31] px-6 py-3"></textarea>
+                        <div class="mt-6 flex justify-center items-center">
+                            <button type="submit" class="px-8 py-3 bg-purple-500 text-white text-xl fonr-sem
+                         rounded-xl transition-all transform duration-300 hover:bg-purple-700">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="w-full bg-[#212529] py-8 lg:py-10">
+        <div class="max-w-6xl mx-auto flex justify-center items-center">
+            <p class="text-gray-300 text-sm text-center lg:text-xl px-4 font-semibold">
+                Copyright &#169 <span id="year"></span> <span
+                    class="text-purple-600 transition-all transform duration-300 hover:text-purple-800"><a
+                        href="#">Sheikh Rasel.</a> </span> All Rights Reserved.</p>
+        </div>
+
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="./jsFile/script.js"></script>
+</body>
+
+</html>
